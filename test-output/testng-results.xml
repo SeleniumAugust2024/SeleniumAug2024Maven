@@ -1,46 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="11" total="16" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-22T09:04:01 IST" name="Suite" finished-at="2024-08-22T09:04:01 IST" duration-ms="64">
+  <suite started-at="2024-08-28T08:16:46 IST" name="Default suite" finished-at="2024-08-28T08:17:21 IST" duration-ms="34567">
     <groups>
-      <group name="Regression">
-        <method signature="GroupDemo.RegressionGroup()[pri:0, instance:testNG_Day2.GroupDemo@747edf66]" name="RegressionGroup" class="testNG_Day2.GroupDemo"/>
-      </group> <!-- Regression -->
-      <group name="Smoke">
-        <method signature="AttributeDemo.SmokeGroup2()[pri:0, instance:testNG_Day2.AttributeDemo@366647c2]" name="SmokeGroup2" class="testNG_Day2.AttributeDemo"/>
-        <method signature="AttributeDemo2.SmokeGroup2()[pri:0, instance:testNG_Day2.AttributeDemo2@55536d9e]" name="SmokeGroup2" class="testNG_Day2.AttributeDemo2"/>
-        <method signature="GroupDemo.SmokeGroup1()[pri:0, instance:testNG_Day2.GroupDemo@747edf66]" name="SmokeGroup1" class="testNG_Day2.GroupDemo"/>
-        <method signature="GroupDemo.SmokeGroup2()[pri:0, instance:testNG_Day2.GroupDemo@747edf66]" name="SmokeGroup2" class="testNG_Day2.GroupDemo"/>
-      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-08-22T09:04:01 IST" name="Test" finished-at="2024-08-22T09:04:01 IST" duration-ms="64">
-      <class name="testNG_Day2.AttributeDemo2">
-        <test-method signature="SmokeGroup2()[pri:0, instance:testNG_Day2.AttributeDemo2@55536d9e]" started-at="2024-08-22T09:04:01 IST" name="SmokeGroup2" finished-at="2024-08-22T09:04:01 IST" duration-ms="2" status="PASS">
+    <test started-at="2024-08-28T08:16:46 IST" name="Default test" finished-at="2024-08-28T08:17:21 IST" duration-ms="34567">
+      <class name="DriverIntroduction.DriverIntro">
+        <test-method signature="DemoDriver()[pri:0, instance:DriverIntroduction.DriverIntro@428640fa]" started-at="2024-08-28T08:16:46 IST" name="DemoDriver" finished-at="2024-08-28T08:17:21 IST" duration-ms="34504" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SmokeGroup2 -->
-      </class> <!-- testNG_Day2.AttributeDemo2 -->
-      <class name="testNG_Day2.GroupDemo">
-        <test-method signature="RegressionGroup()[pri:0, instance:testNG_Day2.GroupDemo@747edf66]" started-at="2024-08-22T09:04:01 IST" name="RegressionGroup" finished-at="2024-08-22T09:04:01 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RegressionGroup -->
-        <test-method signature="SmokeGroup1()[pri:0, instance:testNG_Day2.GroupDemo@747edf66]" started-at="2024-08-22T09:04:01 IST" name="SmokeGroup1" finished-at="2024-08-22T09:04:01 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SmokeGroup1 -->
-        <test-method signature="SmokeGroup2()[pri:0, instance:testNG_Day2.GroupDemo@747edf66]" started-at="2024-08-22T09:04:01 IST" name="SmokeGroup2" finished-at="2024-08-22T09:04:01 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SmokeGroup2 -->
-      </class> <!-- testNG_Day2.GroupDemo -->
-      <class name="testNG_Day2.AttributeDemo">
-        <test-method signature="SmokeGroup2()[pri:0, instance:testNG_Day2.AttributeDemo@366647c2]" started-at="2024-08-22T09:04:01 IST" name="SmokeGroup2" finished-at="2024-08-22T09:04:01 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SmokeGroup2 -->
-      </class> <!-- testNG_Day2.AttributeDemo -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- DemoDriver -->
+      </class> <!-- DriverIntroduction.DriverIntro -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
