@@ -24,6 +24,13 @@ public class LocatorsInSelenium {
 		
 		driver.findElement(By.id("login-button")).click();
 		
+		
+		
+		/*<input type="text" class="form_input" data-test="username" 
+				id="user-name" placeholder="Username" 
+				autocorrect="off" autocapitalize="none" value="standard_user">*/
+		
+		//CSS, XPATH -- ids
 	}
 
 }
