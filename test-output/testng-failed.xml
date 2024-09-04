@@ -3,12 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="LocatorsInSelenium.CSSLocator">
+      <class name="extendReportDemo.TestExtentReportBasic">
         <methods>
-          <include name="addProductAndCheckout"/>
-          <include name="invokeBrowserAndLogin"/>
+          <include name="testSkipped"/>
+          <include name="getResult"/>
+          <include name="testFailed"/>
+          <include name="tearDown"/>
+          <include name="startReporter"/>
         </methods>
-      </class> <!-- LocatorsInSelenium.CSSLocator -->
+      </class> <!-- extendReportDemo.TestExtentReportBasic -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

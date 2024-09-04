@@ -24,7 +24,7 @@ public class DropdownDemo {
 		Thread.sleep(5000);
 		
 		Select multiSelect = new Select(driver.findElement(By.id("fruits")));
-		
+		multiSelect.isMultiple();
 		multiSelect.selectByValue("banana");
 		multiSelect.selectByValue("apple");
 		

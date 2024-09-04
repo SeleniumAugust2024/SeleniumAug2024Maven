@@ -1,21 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-29T09:03:33 IST" name="Default suite" finished-at="2024-08-29T09:03:53 IST" duration-ms="19177">
+  <suite started-at="2024-09-03T09:03:09 IST" name="Default suite" finished-at="2024-09-03T09:03:12 IST" duration-ms="2535">
     <groups>
     </groups>
-    <test started-at="2024-08-29T09:03:33 IST" name="Default test" finished-at="2024-08-29T09:03:53 IST" duration-ms="19177">
-      <class name="LocatorsInSelenium.CSSLocator">
-        <test-method is-config="true" signature="invokeBrowserAndLogin()[pri:0, instance:LocatorsInSelenium.CSSLocator@63376bed]" started-at="2024-08-29T09:03:33 IST" name="invokeBrowserAndLogin" finished-at="2024-08-29T09:03:49 IST" duration-ms="15861" status="PASS">
+    <test started-at="2024-09-03T09:03:09 IST" name="Default test" finished-at="2024-09-03T09:03:12 IST" duration-ms="2535">
+      <class name="extendReportDemo.TestExtentReportBasic">
+        <test-method is-config="true" signature="startReporter()[pri:0, instance:extendReportDemo.TestExtentReportBasic@470734c3]" started-at="2024-09-03T09:03:09 IST" name="startReporter" finished-at="2024-09-03T09:03:10 IST" duration-ms="859" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- invokeBrowserAndLogin -->
-        <test-method signature="addProductAndCheckout()[pri:0, instance:LocatorsInSelenium.CSSLocator@63376bed]" started-at="2024-08-29T09:03:49 IST" name="addProductAndCheckout" finished-at="2024-08-29T09:03:53 IST" duration-ms="3217" status="PASS">
+        </test-method> <!-- startReporter -->
+        <test-method signature="testFailed()[pri:0, instance:extendReportDemo.TestExtentReportBasic@470734c3]" started-at="2024-09-03T09:03:10 IST" name="testFailed" finished-at="2024-09-03T09:03:10 IST" duration-ms="56" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:86)
+at org.junit.Assert.assertTrue(Assert.java:41)
+at org.junit.Assert.assertTrue(Assert.java:52)
+at extendReportDemo.TestExtentReportBasic.testFailed(TestExtentReportBasic.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addProductAndCheckout -->
-      </class> <!-- LocatorsInSelenium.CSSLocator -->
+        </test-method> <!-- testFailed -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:extendReportDemo.TestExtentReportBasic@470734c3]" started-at="2024-09-03T09:03:10 IST" name="getResult" finished-at="2024-09-03T09:03:10 IST" duration-ms="48" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFailed status=FAILURE method=TestExtentReportBasic.testFailed()[pri:0, instance:extendReportDemo.TestExtentReportBasic@470734c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testPassed()[pri:0, instance:extendReportDemo.TestExtentReportBasic@470734c3]" started-at="2024-09-03T09:03:10 IST" name="testPassed" finished-at="2024-09-03T09:03:10 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPassed -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:extendReportDemo.TestExtentReportBasic@470734c3]" started-at="2024-09-03T09:03:10 IST" name="getResult" finished-at="2024-09-03T09:03:10 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPassed status=SUCCESS method=TestExtentReportBasic.testPassed()[pri:0, instance:extendReportDemo.TestExtentReportBasic@470734c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testSkipped()[pri:0, instance:extendReportDemo.TestExtentReportBasic@470734c3]" started-at="2024-09-03T09:03:10 IST" name="testSkipped" finished-at="2024-09-03T09:03:10 IST" duration-ms="6" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[The Test Cases Has Been Skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: The Test Cases Has Been Skipped
+at extendReportDemo.TestExtentReportBasic.testSkipped(TestExtentReportBasic.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSkipped -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:extendReportDemo.TestExtentReportBasic@470734c3]" started-at="2024-09-03T09:03:10 IST" name="getResult" finished-at="2024-09-03T09:03:10 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSkipped status=SKIP method=TestExtentReportBasic.testSkipped()[pri:0, instance:extendReportDemo.TestExtentReportBasic@470734c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:extendReportDemo.TestExtentReportBasic@470734c3]" started-at="2024-09-03T09:03:10 IST" name="tearDown" finished-at="2024-09-03T09:03:12 IST" duration-ms="1362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- extendReportDemo.TestExtentReportBasic -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
